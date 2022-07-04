@@ -1,17 +1,20 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-
 import os
+from os import system #for windows
 
 students = list()
+
+
 def students_saving():
     for student_save in students:
         with open("students.txt", "a") as students_saver:
             students_saver.write("Name: ")
             students_saver.write(student_save)
             students_saver.write("\n")
-            
+
+
 os.system("clear")
 print("""
 \033[1;91m
