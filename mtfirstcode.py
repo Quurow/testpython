@@ -7,7 +7,7 @@ def students_saving():
             students_saver.write("\n")
             
 os.system("clear")
-print  """
+print("""
 \033[1;91m
 \033[1;92m
 \033[1;92m╭━━━╮╱╱╱╱╱╱╱╱╭╮╱╱╭╮╱╭╮╱╱╱╱╱╭╮
@@ -17,15 +17,15 @@ print  """
 \033[1;92m┃╰━╯┃╰╯┃┃┃┃╭╮┃╰┫┃┃┃╱┃┃╭╮┃╰━┫╭╮┫┃━┫┃
 \033[1;92m╰━━━┻━━┻┻┻┻╯╰┻━┻╯╰╯╱╰┻╯╰┻━━┻╯╰┻━━┻╯      
 \033[1;91m[][][][][][][][][][]ku raxeso jabsashada [][][][][][][][][]                                                      
-"""
-print  """
+""")
+print("""
 \033[1;92m╔═════════════════════════════════════╗
 \033[1;92m║ DEVELOPER  : Abdisamad                       ║
 \033[1;92m║ GITHUB     : https://github.com/Yaamiin     ║
 \033[1;92m║ FACEBOOK   : abdisamadquurow@gmail.com       ║
 \033[1;92m║ WHATSAPP   : +1 205-721-7627                 ║
 \033[1;92m╚═════════════════════════════════════╝
-"""
+""")
 
 print("1: Add new student")
 print("2: Remove Student")
