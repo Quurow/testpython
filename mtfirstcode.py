@@ -1,3 +1,9 @@
+#!/usr/bin/python2
+#coding=utf-8
+
+
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+
 students = list()
 def students_saving():
     for student_save in students:
