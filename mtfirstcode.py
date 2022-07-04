@@ -2,7 +2,7 @@
 #coding=utf-8
 
 
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+import os
 
 students = list()
 def students_saving():
