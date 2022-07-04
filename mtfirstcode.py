@@ -5,7 +5,9 @@ def students_saving():
             students_saver.write("Name: ")
             students_saver.write(student_save)
             students_saver.write("\n")
-logo = """
+            
+##### LOGO #####
+print("""
 
 \033[1;92m
 \033[1;92m███████╗ ██████╗██╗  ██╗ ██████╗  ██████╗ 
@@ -22,7 +24,7 @@ logo = """
 \033[1;92m██║ ╚═╝ ██║██║  ██║██║ ╚████║██║  ██║╚██████╔╝███████╗██║  ██║
 \033[1;92m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
  \033[1;              ☠️°─────(Abdisamad-hacker)─────°☠️  
-"""
+""")
 print("1: Add new student")
 print("2: Remove Student")
 print("3:Contact Developer")
